@@ -2,8 +2,67 @@
 <html>
 <head>
     <title>mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black
+    }
+    </style>
 </head>
 <body>
+
+    <ul> 
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <ol> 
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+    <table style="width: 200px;">
+
+        <thead>
+            <tr> <!--Inicia la Columna-->
+                <th>Producto</th> <!--Fila la Columna x11-->
+                <th>Precio</th> <!--Fila la Columna x12-->
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>chancho</td>
+                <td>gratis</td>
+     
+            </tr>
+            <tr>
+                <td>triste chancho</td>
+                <td>pero feliz</td>
+     
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 0</td>
+        </tfoot>
+
+
+        
+        
+    </table>
+
+    <form action="/formulario">
+        <label for="Nombre">Nombre: </label>
+        <input id="Nombre" name="Nombre" placeholder="Ejemplo: chanco culi"/>
+        <br><br>
+        <label for="Apellido">Apellido: </label>
+        <input id="Apellido" name="Apellido" placeholder="Ejemplo: Ramirez"/>
+        <br>
+        <button type="submit">Enviar ji</button>
+
+    </form>
     <h1> Mi primer heading</h1>
     <p>
         Chanchito <span style="color: rgb(204, 0, 0);">esta muy feliz</span> esta muy feliz
@@ -12,9 +71,10 @@
     </p>
     <!-- -->
 
-    <img src="assets/Mieo.jpg"/> 
-    
-    <a href="https://www.google.com/?hl=es"> Ir a google </a>
+    <img src="assets/Mieo.jpg" width= 400/> 
+
+    <p><a href="http://google.com" target="_blank" rel="noopener noreferrer">abajo</a></p>
+    <p> mIELS DE PARRAFOS</p>
 
 </body>
 </html>
